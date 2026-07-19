@@ -4,7 +4,7 @@ alert("Bienvenido a mi sitio web!");
 // Captura de datos personales del usuario
 const nombreUsuario = prompt("¿Como te llamas?");
 console.log(nombreUsuario);
-const edadUsuario = prompt("¿Cuantos años tenes?");
+let edadUsuario = prompt("¿Cuantos años tenes?");
 edadUsuario = parseInt(edadUsuario);
 console.log(edadUsuario);
 
